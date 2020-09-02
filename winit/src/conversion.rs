@@ -353,7 +353,7 @@ pub fn key_code(virtual_keycode: winit::event::VirtualKeyCode) -> KeyCode {
         winit::event::VirtualKeyCode::Slash => KeyCode::Slash,
         winit::event::VirtualKeyCode::Sleep => KeyCode::Sleep,
         winit::event::VirtualKeyCode::Stop => KeyCode::Stop,
-        winit::event::VirtualKeyCode::Subtract => KeyCode::Subtract,
+        winit::event::VirtualKeyCode::NumpadSubtract => KeyCode::Subtract,
         winit::event::VirtualKeyCode::Sysrq => KeyCode::Sysrq,
         winit::event::VirtualKeyCode::Tab => KeyCode::Tab,
         winit::event::VirtualKeyCode::Underline => KeyCode::Underline,
